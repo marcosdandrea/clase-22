@@ -1,0 +1,7 @@
+{{#each messages}}
+      <div class="messageRow">
+        <b class="messageFrom">{{this.author.id}}</b>
+        <p class="messageTime">({{this.author.alias}}):</p>
+        <i class="messageContent">{{this.text}}</i>
+      </div>
+{{/each}}

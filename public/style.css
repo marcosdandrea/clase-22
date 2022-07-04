@@ -1,0 +1,62 @@
+td {
+    vertical-align: middle !important;
+}
+
+.thead-dark{
+    background-color: black;
+    color: white;
+}
+
+.messageForm{
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+
+.tableContainer {
+    max-height: 70vh;
+    width: 80vw;
+    overflow-y: scroll;
+}
+
+.btnContainer{
+    column-gap: 1rem;
+}
+
+#hbsMessages{
+    max-height: 8rem;
+    overflow: auto;
+}
+
+.messageRow{
+    display: flex;
+    column-gap: 1rem;
+    height: 1.3rem;
+}
+
+.inputContainer{
+    display: flex;
+    column-gap: 1rem;
+}
+
+.messageFrom{
+    color: blue
+}
+
+.messageTime {
+    color: brown
+}
+
+.messageContent{
+    color: green
+}
+
+th, td{
+    text-align: center !important;
+}
+
+.inputContainer{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
